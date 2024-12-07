@@ -40,7 +40,7 @@ class PassengerTest {
     @Test
     void testCreatePassengerWithNullIdentifier() {
         Exception exception = assertThrows(RuntimeException.class, () -> new Passenger(null, "John", "US"));
-        assertEquals("Identifier cannot be null", exception.getMessage()); // Ajusta si es necesario
+        assertEquals("Identifier cannot be null or empty", exception.getMessage());
     }
 
     @Test
