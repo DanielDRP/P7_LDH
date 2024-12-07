@@ -1,0 +1,9 @@
+<map id="es.ull.flights.Flight.addPassenger" name="es.ull.flights.Flight.addPassenger">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,158,115"/>
+<area shape="rect" id="Node000002" href="$classes_1_1ull_1_1flights_1_1_flight.html#a54acb8002451233c0627f67d7da6cdff" title=" " alt="" coords="237,5,386,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,69,221,50,222,55,158,74"/>
+<area shape="rect" id="Node000003" href="$classes_1_1ull_1_1flights_1_1_flight.html#a187a56be3a80aeed3f86f5af788cefe4" title=" " alt="" coords="236,72,386,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,91,221,91,221,96,158,96"/>
+<area shape="rect" id="Node000004" href="$classes_1_1ull_1_1passengers_1_1_passenger.html#a304d20a6a14fc06b986745b345720cde" title=" " alt="" coords="206,139,417,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,113,221,131,220,136,156,118"/>
+</map>

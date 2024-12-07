@@ -1,0 +1,15 @@
+<map id="es.ull.passengers.Passenger.joinFlight" name="es.ull.passengers.Passenger.joinFlight">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,131,219,173"/>
+<area shape="rect" id="Node000002" href="$classes_1_1ull_1_1flights_1_1_flight.html#af91e68d0b5783e3593f4dac614e8f6df" title=" " alt="" coords="278,72,430,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,127,262,113,263,118,203,133"/>
+<area shape="rect" id="Node000005" href="$classes_1_1ull_1_1passengers_1_1_passenger.html#a304d20a6a14fc06b986745b345720cde" title=" " alt="" coords="489,139,700,181"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="219,151,473,155,473,161,219,156"/>
+<area shape="rect" id="Node000006" href="$classes_1_1ull_1_1flights_1_1_flight.html#aae162ee591aaab6ea905e8eb116b0b5a" title=" " alt="" coords="267,189,441,232"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="203,171,252,183,251,189,202,177"/>
+<area shape="rect" id="Node000003" href="$classes_1_1ull_1_1flights_1_1_flight.html#a54acb8002451233c0627f67d7da6cdff" title=" " alt="" coords="520,5,669,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,70,504,49,506,54,431,75"/>
+<area shape="rect" id="Node000004" href="$classes_1_1ull_1_1flights_1_1_flight.html#a187a56be3a80aeed3f86f5af788cefe4" title=" " alt="" coords="520,72,670,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="431,91,504,91,504,96,431,96"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="431,112,501,131,500,137,430,117"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="441,190,475,182,476,188,442,195"/>
+</map>
