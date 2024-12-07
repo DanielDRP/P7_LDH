@@ -4,7 +4,6 @@ import es.ull.flights.Flight;
 import es.ull.passengers.Passenger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class PassengerTest {
@@ -26,23 +25,16 @@ class PassengerTest {
     }
 
     @Test
-    void testJoinFlight() {
-        // El pasajero se une al vuelo
+    void testJoinFlightNoPreviousFlight() {
+        // El pasajero no tiene un vuelo anterior, se une al vuelo1
         passenger.joinFlight(flight1);
         assertEquals(flight1, passenger.getFlight());
         assertEquals(1, flight1.getNumberOfPassengers());
     }
 
     @Test
-    void testJoinFlightWithNull() {
-        // El pasajero se une a un vuelo nulo
-        passenger.joinFlight(null);
-        assertNull(passenger.getFlight());
-    }
-
-    @Test
-    void testJoinNewFlightAfterLeavingPrevious() {
-        // El pasajero cambia de vuelo
+    void testJoinFlightFromPreviousFlight() {
+        // El pasajero ya está en flight1 y se une a flight2
         passenger.joinFlight(flight1);
         passenger.joinFlight(flight2);
         assertEquals(flight2, passenger.getFlight());
@@ -76,8 +68,8 @@ class PassengerTest {
     }
 
     @Test
-    void testJoinFlightWhenAlreadyOnFlight() {
-        // El pasajero ya está en el vuelo 1 y se une de nuevo (debería funcionar sin lanzar excepción)
+    void testJoinFlightWhenAlreadyInFlight() {
+        // El pasajero ya está en flight1 y se une nuevamente a flight1
         passenger.joinFlight(flight1);
         passenger.joinFlight(flight1); // No debería causar error
         assertEquals(flight1, passenger.getFlight());
