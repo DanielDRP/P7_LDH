@@ -41,6 +41,7 @@ public class Flight {
         if (!matcher.matches()) {
             throw new RuntimeException("Invalid flight number");
         }
+
         this.flightNumber = flightNumber;
         this.seats = seats;
     }
